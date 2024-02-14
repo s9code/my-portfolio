@@ -1,0 +1,59 @@
+/* -- GOOGLE FONTS -- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* -- VARIABLES -- */
+:root {
+
+  /* Color */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --container-color: #D9D9D9;
+
+  /* Font and typography */
+  --body-font: 'roboto', sans-serif;
+
+  --big-font-size: 64px;
+  --about-font-size: 40px;
+  --normal-font-size: 32px;
+  --movil-font-size: 32px;
+  --small-font-size: 20px;
+  --smaller-font-size: 16px;
+
+  /* Font weight */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold:700;
+}
+
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+p {
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
