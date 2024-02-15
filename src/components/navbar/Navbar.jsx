@@ -5,6 +5,7 @@ const Header = () => {
   
   /* Toggle Menu */
   const [Toggle, showMenu] = useState(false);
+  const [activeNav, setActiveNav] = useState('#home');
 
   return (
     <section className='nav'>
@@ -12,22 +13,27 @@ const Header = () => {
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#h" className="nav__link">About</a>
+            <a href="#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'nav__link active-link' : 'nav__link'}>
+            <i className="uil uil-estate nav__icon"></i> Home
+              </a>
             </li>
             <li className="nav__item">
-              <a href="#h" className="nav__link">Skills</a>
+            <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'nav__link active-link' : 'nav__link'}>
+                <i className="uil uil-file-alt nav__icon"></i> Habilidades
+              </a>
             </li>
             <li className="nav__item">
-              <a href="#h" className="nav__link">Projects</a>
-            </li>
-            <li className="nav__item">
-              <a href="#h" className="nav__link">Contact</a>
+            <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'nav__link active-link' : 'nav__link'}>
+                <i className="uil uil-scenery nav__icon"></i> Proyects
+              </a>
             </li>
           </ul>
+          <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
         </div>
 
+
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <ion-icon className="menu-outline"></ion-icon>
+          <img width="35" height="35" src="https://img.icons8.com/parakeet-line/48/hamburger.png" alt="hamburger"/>
         </div> 
       </nav>
     </section>

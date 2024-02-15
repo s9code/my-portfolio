@@ -1,5 +1,5 @@
 .skills {
-   
+   margin-right: 35px;
 }
 .skills__container-text {
     display: flex;
@@ -19,7 +19,6 @@
 }
 .skills__content {
     padding: 2rem 8rem;
-    border-radius: 1.25rem;
     margin-bottom: 20px;
 }
 .skills__group {
@@ -50,6 +49,9 @@
 }
 
 @media screen and (min-width: 585px) {
+    .skills {
+        margin-right: 0px;
+     }
     .skills__title-item {
         font-size: var(--about-font-size);
         font-weight: var(--font-semi-bold);

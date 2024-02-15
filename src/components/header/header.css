@@ -24,8 +24,8 @@
 .descrip-text {
     margin-top: 50px;
     font-size: var(--normal-font-size);
-    max-width: 500px;
-    min-width: 500px;
+    max-width: 350px;
+    min-width: 350px;
 }
 .contacto {
     background-color: black;
