@@ -1,5 +1,5 @@
 .nav {
-    margin-top: 20px;
+    padding-top: 20px;
     color: var(--title-color);
 }
 .nav__toggle {
@@ -34,7 +34,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .nav {
-        margin-top: 50px;
+        padding-top: 50px;
         margin-bottom: 150px;
     }
     .nav__toggle {
