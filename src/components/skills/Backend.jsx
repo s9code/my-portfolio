@@ -8,7 +8,7 @@ const backend = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <i><ion-icon name="code-outline"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="code-outline"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">PHP</p>
@@ -17,7 +17,7 @@ const backend = () => {
                 </div>
             
                 <div className="skills__data">
-                    <i><ion-icon name="logo-nodejs"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-nodejs"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">Node Js</p>
@@ -26,7 +26,7 @@ const backend = () => {
                 </div>
             
                 <div className="skills__data">
-                    <i><ion-icon name="logo-python"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-python"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">Python</p>

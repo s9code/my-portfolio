@@ -4,7 +4,7 @@ import Img from '../../asset/portfolio-ptif.png';
 
 const Main = () => {
   return (
-    <header className='header'>
+    <header className='header' id="home">
         <div className='header__container'>
         <div className='header__container-img'>
             <img className='container__img' src={Img} alt="" />
@@ -25,7 +25,7 @@ const Main = () => {
             </p>
         </div>
         <div className='contacto'>
-            <a href="#contact" className="button button--flex">
+            <a href="mailto:javilezdev@duck.com" className="button button--flex">
                 Say Hello
                 <svg
                         class="button__icon"

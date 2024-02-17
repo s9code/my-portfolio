@@ -8,7 +8,7 @@ const frontend = () => {
         <div className="skills__box">   
             <div className="skills__group">
                 <div className="skills__data">
-                    <i><ion-icon name="logo-html5"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-html5"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">HTML</p>
@@ -17,7 +17,7 @@ const frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i><ion-icon name="logo-css3"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-css3"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">CSS</p>
@@ -26,7 +26,7 @@ const frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i><ion-icon name="logo-css3"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-css3"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">Bootstrap</p>
@@ -36,7 +36,7 @@ const frontend = () => {
             </div>
             <div className="skills__group">
                 <div className="skills__data">
-                    <i><ion-icon name="logo-github"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-github"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">Git</p>
@@ -45,7 +45,7 @@ const frontend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <i><ion-icon name="logo-react"></ion-icon></i>
+                    <i className='skills__i'><ion-icon name="logo-react"></ion-icon></i>
 
                     <div>
                         <p className="skills__name">React</p>

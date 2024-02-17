@@ -13,6 +13,7 @@
     position: fixed;
     right: -100%;
     transition: .3s;
+    margin-top: 20px;
 }
 .show-menu {
     right: 40px;
@@ -22,10 +23,12 @@
     flex-direction: row;
     gap: 1rem;
 }
-
 a {
     color: var(--title-color);
-    text-decoration: none;
+    text-decoration: none; 
+}
+.logo-github {
+   font-size: 25px;
 }
 
 a:hover {
@@ -44,13 +47,13 @@ a:hover {
         display: flex;
         transition: 0s;
         right: 0%;
+        left: 30%;
     }
     .nav__list {
         display: flex;
         justify-content: center;
         width: 100vw;
         font-size: var(--small-font-size);
-        background-color: white;
         gap: 1.5rem;
     }
 }

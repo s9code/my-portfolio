@@ -17,18 +17,22 @@ const Projects = () => {
     }, []);
 
     return (
-        <div>
-            <div className="projects__title">
+        <div className='projects' id="projects">
+            <div className='projects__title'>
                 <p className='projects__title-item'>Proyectos</p>
             </div>
-            <ul>
-                {repos.map(item => (
-                    <li key={item.id}>
-                        <strong>{item.name.toUpperCase()}</strong>
-                        <span>URL: <a href={item.html_url}>{item.html_url}</a></span>
-                    </li>
-                ))}
-            </ul>
+            <div>
+                <ul className='projects__item'>
+                    {repos.map(item => (
+                        <div className="projects__repost">
+                            <li key={item.id}>
+                                <strong>{item.name.toUpperCase()}</strong>
+                                <span>URL: <a href={item.html_url}>{item.html_url}</a></span>
+                            </li>
+                        </div>  
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 };
