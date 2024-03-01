@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import Menu from '../../asset/icon-menu.png';
 
 const Header = () => {
   
@@ -33,7 +34,7 @@ const Header = () => {
 
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <img width="35" height="35" src="https://img.icons8.com/parakeet-line/48/hamburger.png" alt="hamburger"/>
+          <img className='menu-item' width="35" height="35" src={Menu} alt="hamburger"/>
         </div> 
       </nav>
     </section>
